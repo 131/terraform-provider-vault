@@ -1,7 +1,0 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
-self-hosted-runner:
-  # Labels of custom runners in array of string
-  labels:
-    - custom-linux-large
