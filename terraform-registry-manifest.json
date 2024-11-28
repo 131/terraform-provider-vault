@@ -8,6 +8,6 @@
       "type": "git",
       "url": "git@github.com:131/terraform-provider-vault.git"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
   }
 }
