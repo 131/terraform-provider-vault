@@ -1,6 +1,12 @@
 {
-    "version": 1,
-    "metadata": {
-        "protocol_versions": ["5.0"]
+  "version": 1,
+  "metadata": {
+    "protocol_versions": [
+      "5.0"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:131/terraform-provider-vault.git"
     }
+  }
 }
