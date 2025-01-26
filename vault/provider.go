@@ -261,6 +261,10 @@ var (
 			Resource:      UpdateSchemaResource(tokenAuthBackendRoleResource()),
 			PathInventory: []string{"/auth/token/roles/{role_name}"},
 		},
+		"vault_ssh_auth_backend_role": {
+			Resource:      UpdateSchemaResource(sshAuthBackendRoleResource()),
+			PathInventory: []string{"/auth/ssh/role/{role_name}"},
+		},
 		"vault_ad_secret_backend": {
 			Resource:      UpdateSchemaResource(adSecretBackendResource()),
 			PathInventory: []string{"/ad"},
